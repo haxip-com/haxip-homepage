@@ -17,13 +17,10 @@ export default function Navbar() {
         <Link href="/services" className={router.pathname === '/services' ? styles.active : ''}>
           Services
         </Link>
-        <Link href="/about" className={router.pathname === '/about' ? styles.active : ''}>
-          About
-        </Link>
         <Link href="/contact" className={router.pathname === '/contact' ? styles.active : ''}>
           Contact
         </Link>
       </div>
     </nav>
   )
-} 
+}

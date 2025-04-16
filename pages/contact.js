@@ -17,44 +17,18 @@ export default function Contact() {
         <div className={styles.contactInfo}>
           <div className={styles.contactCard}>
             <h2>Company Address</h2>
-            <p>Downtown Toronto</p>
-            <p>Ontario, Canada</p>
+            <p>1018 Kangding Rd</p>
+            <p>Shanghai, China</p>
           </div>
 
           <div className={styles.contactCard}>
             <h2>Contact Information</h2>
-            <p>Email: info@haxip.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
+            <p>Email: zhanh394@mcmaster.ca</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;me@mirza.im</p>
+            <p>Phone: +1 (437) 663-7918</p>
           </div>
         </div>
 
-        <div className={styles.contactForm}>
-          <h2>Send a Message</h2>
-          <form>
-            <div className={styles.formGroup}>
-              <label htmlFor="name">Name</label>
-              <input type="text" id="name" required />
-            </div>
-            
-            <div className={styles.formGroup}>
-              <label htmlFor="email">Email</label>
-              <input type="email" id="email" required />
-            </div>
-            
-            <div className={styles.formGroup}>
-              <label htmlFor="message">Message</label>
-              <textarea id="message" rows="5" required></textarea>
-            </div>
-            
-            <button type="submit" className={styles.submitButton}>
-              Send
-            </button>
-          </form>
-        </div>
-
-        <div className={styles.backLink}>
-          <Link href="/">Back to Home</Link>
-        </div>
       </main>
 
       <footer className={styles.footer}>

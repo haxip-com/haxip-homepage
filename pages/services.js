@@ -31,9 +31,6 @@ export default function Services() {
           </div>
         </div>
 
-        <div className={styles.backLink}>
-          <Link href="/">Back to Home</Link>
-        </div>
       </main>
 
       <footer className={styles.footer}>

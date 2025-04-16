@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Your partner for software development, consulting, and AI application development
+        Turning Ideas into Production-Ready Software.
         </p>
 
         <div className={styles.grid}>
@@ -28,25 +28,18 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/about">
-            <div className={styles.card}>
-              <h2>About Us &rarr;</h2>
-              <p>Learn about Haxip's mission, vision, and team.</p>
-            </div>
-          </Link>
-
           <Link href="/contact">
             <div className={styles.card}>
               <h2>Contact Us &rarr;</h2>
-              <p>Located in Toronto, we're ready to help you.</p>
+              <p>Our contact information is available here.</p>
             </div>
           </Link>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} Haxip. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Haxip. All rights reserved.</p>
       </footer>
     </div>
   )
-} 
+}
